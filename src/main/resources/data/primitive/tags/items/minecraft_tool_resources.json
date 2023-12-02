@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate",
+    "#minecraft:logs",
+    "minecraft:iron_ingot",
+    "minecraft:diamond",
+    "minecraft:netherite_ingot",
+    "minecraft:gold_ingot"
+  ]
+}

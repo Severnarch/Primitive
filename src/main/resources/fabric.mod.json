@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "primitive",
+  "version": "${version}",
+  "name": "Primitive",
+  "description": "A Fabric mod adding more difficulty to the game.",
+  "authors": [
+    "Severnarch"
+  ],
+  "contact": {
+    "website": "https://github.com/Severnarch/Primitive",
+    "repo": "https://github.com/Severnarch/Primitive"
+  },
+  "license": "MIT",
+  "icon": "assets/primitive/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.severnarch.primitive.client.PrimitiveClient"
+    ],
+    "main": [
+      "io.github.severnarch.primitive.Primitive"
+    ]
+  },
+  "mixins": [
+    "primitive.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
